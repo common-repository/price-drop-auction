@@ -1,0 +1,54 @@
+.offer {
+    padding: 20px;
+    border: none;
+    background-color: transparent;
+    margin: 20px 0;
+    border-radius: 10px;
+    color: #2f5a69;
+    text-align: center;
+}
+
+.offer p.title-pricedrop{
+    font-size: 1.5em;
+    margin-bottom:15px;
+}
+.offer .real-price,.offer .real-now{
+    font-size:1.5em;
+    margin-bottom:20px;
+}
+.offer .real-price span {
+    color: #999;
+    text-decoration: line-through;
+}
+.offer .real-price span,.offer .real-now span {
+    margin-left: 10px;
+}
+.offer .real-now span {
+    color: #e60000;
+    font-weight: bold;
+}
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.counter-digit {
+    display: inline-block;
+    font-size: 2em;
+    width: 1em;
+    text-align: center;
+    margin: 0 2px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+.counter-separator {
+    display: inline-block;
+    font-size: 2em;
+    width: 0.5em;
+    text-align: center;
+    margin: 0 5px;
+}
